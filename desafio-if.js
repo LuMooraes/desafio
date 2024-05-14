@@ -16,6 +16,6 @@ if (xpHeroi < 1.000) {
     else if (xpHeroi <= 10.000)
     console.log("Você pode jogar esse jogo, você é Imortal")
     else if (xpHeroi > 10.001 )
-    console.log("Parabens, você é digno de hogar, você é radiante")
+    console.log("Parabens, você é digno de jogar, você é radiante")
 
 console.log("O heroí de nome " + nomeHeroi + " está no no nivel de " + xpHeroi + " ele é radiante!")

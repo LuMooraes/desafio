@@ -1,27 +1,32 @@
-let nomeHeroi = "Falkito"
-let xpHeroi = 10.001
+let nomeHeroi = "Falkito";
+let xpHeroi = 12.000;
 
-switch (xpHeroi) {
-    case 1.001 && 2.000:
-      console.log("Você é bronze");
-      break;
-    case 2.001 && 5.000:
-        console.log("Você é Prata");
+switch (true) {
+    case (xpHeroi >= 1.000 && xpHeroi <= 2.000):
+        console.log(nomeHeroi + " é Ferro");
         break;
-    case 6.001 && 7.000:
-        console.log("Você é Ouro");
+    case (xpHeroi >= 2.001 && xpHeroi <= 5.000):
+        console.log(nomeHeroi + " é Bronze");
         break;
-    case 7.001 && 8.000:
-        console.log("Você é Platina");
+    case (xpHeroi >= 5.001 && xpHeroi <= 7.000):
+        console.log(nomeHeroi + " é Prata");
         break;
-    case 8.001 && 9.000:
-        console.log("Você é Ascendete");
+    case (xpHeroi >= 7.001 && xpHeroi <= 8.000):
+        console.log(nomeHeroi + " é Ouro");
         break;
-    case 9.001 && 10.000:
-        console.log("Você é Imortal");
+    case (xpHeroi >= 8.001 && xpHeroi <= 9.000):
+        console.log(nomeHeroi + " é Platina");
         break;
-    case 10.001:
-        console.log("Você é Radiante")
-        break;  
+    case (xpHeroi >= 9.001 && xpHeroi <= 10.000):
+        console.log(nomeHeroi + " é Ascendente");
+        break;
+    case (xpHeroi >= 10.000 && xpHeroi <= 11.000):
+        console.log(nomeHeroi + " é Imortal");
+        break;
+    case (xpHeroi = 11.001):
+        console.log(nomeHeroi + " é Radiante");
+        break;   
+    default:
+        console.log("Parabens, voce é um Deus") 
 }
-console.log("O heroí de nome " + nomeHeroi + " está no nivel de " +xpHeroi + " ele é Radiante")
+    console.log("O herói de nome " + nomeHeroi + " está no nivel de " + xpHeroi)
